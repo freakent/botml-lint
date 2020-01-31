@@ -1,6 +1,6 @@
 BotML Linter
 
-1)  Pull from github
+1)  Clone from github https://github.com/freakent/botml-lint
 2)  % npm install
 3)  % skillbot=<path and name_of_exported_skill>.zip npm test
     example:
