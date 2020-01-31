@@ -1,8 +1,8 @@
-const fs = require("fs");
-const JSZip = require("jszip");
+const fs = require("fs")
+const JSZip = require("jszip")
 const YAML = require("yaml")
-const assert = require("assert"
-)
+const assert = require("assert")
+
 // read a zip file and extract yaml file
 // This would probably be more performant if this was a singleton that cached the result
 async function load() {
